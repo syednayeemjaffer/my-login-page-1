@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Poppins&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    cursor: pointer; 
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,rgb(128, 0, 255),rgb(247, 0, 255));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+form{
+    display: flex;
+    position: relative;
+    left: 30px;
+    flex-direction: column;
+    height: 18rem;
+    width: 15rem;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+label{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    opacity: 0.8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+input{
+    width: 80%;
+    margin:5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: solid rgba(255,255,255,0.6) 1px;
+    opacity: 0.8;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    color: white;
+    margin: 3% auto;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+div{
+   height: 70px; 
+   width: 70px;
+   box-shadow: 0 0 10px rgba(255,255,255,20);
+   border-radius: 10px;
+   background-color:rgba(255,255,255,20) ;
+
+}
+
+.one{
+    position: relative;
+    bottom: 100px;
+    right: 250px;
+}
+.two{
+    position: relative;
+    top: 100px;
+    
+}
+.one,.two{animation: rotate 3s infinite;}
+     @keyframes rotate {
+      0% {transform: rotate(0deg);}
+     100% {transform: rotate(360deg);}
+}
+
+
+
